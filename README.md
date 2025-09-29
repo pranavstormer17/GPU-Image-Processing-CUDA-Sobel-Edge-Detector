@@ -31,13 +31,12 @@ If you do not have `stb` headers, the `include/` directory contains them. (They 
 
 ## Build & Run (command-line)
 
-1. Clone repository:
-```bash
-git clone https://github.com/<your-username>/cuda-sobel-project.git
-cd cuda-sobel-project
-Build with the included script (or use manual CMake commands):
-
-```bash
-Copy code
-chmod +x scripts/build.sh
-./scripts/build.sh
+1. **Clone repository:**
+   ```bash
+   git clone https://github.com/<your-username>/cuda-sobel-project.git
+   cd cuda-sobel-project
+   
+2. **Build with the included script (or use manual CMake commands):**
+   ```bash
+   chmod +x scripts/build.sh
+   ./scripts/build.sh
