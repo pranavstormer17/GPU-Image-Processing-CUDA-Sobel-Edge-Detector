@@ -1,4 +1,4 @@
-# GPU Image Processing-CUDA Sobel Edge Detector
+# GPU Image Processing - CUDA Sobel Edge Detector
 
 **Short description:**  
 This project demonstrates GPU acceleration for image processing by implementing a grayscale conversion and Sobel edge detection using CUDA. The program accepts command line arguments, measures GPU execution time, and writes the processed image and a CSV timing log. Intended as a final project for a CUDA/GPU course.
