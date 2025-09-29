@@ -40,19 +40,19 @@ If you do not have `stb` headers, the `include/` directory contains them. (They 
    ```bash
    chmod +x scripts/build.sh
    ./scripts/build.sh
-This produces the build/sobel_gpu executable.
+  This produces the build/sobel_gpu executable.
 
 3. **Download a sample image (optional):**
    ```bash
    chmod +x scripts/download_sample.sh
    ./scripts/download_sample.sh data/
-Sample is saved as data/sample.jpg.
+  Sample is saved as data/sample.jpg.
 
 4. **Run on a sample image:**
    ```bash
    chmod +x scripts/run_sample.sh
    ./scripts/run_sample.sh data/sample.jpg results/output.png results/log.csv
 
-**Example of manual command-line usage:**
+  **Example of manual command-line usage:**
    ```bash
    ./build/sobel_gpu --input data/sample.jpg --output results/output.png --block 16 --log results/log.csv
