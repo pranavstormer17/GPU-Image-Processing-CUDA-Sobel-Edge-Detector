@@ -46,4 +46,13 @@ This produces the build/sobel_gpu executable.
    ```bash
    chmod +x scripts/download_sample.sh
    ./scripts/download_sample.sh data/
-Sample is saved as data/sample.jpg
+Sample is saved as data/sample.jpg.
+
+4. **Run on a sample image:**
+   ```bash
+   chmod +x scripts/run_sample.sh
+   ./scripts/run_sample.sh data/sample.jpg results/output.png results/log.csv
+
+**Example of manual command-line usage:**
+   ```bash
+   ./build/sobel_gpu --input data/sample.jpg --output results/output.png --block 16 --log results/log.csv
