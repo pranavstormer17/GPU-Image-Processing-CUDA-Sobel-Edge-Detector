@@ -41,6 +41,7 @@ If you do not have `stb` headers, the `include/` directory contains them. (They 
    chmod +x scripts/build.sh
    ./scripts/build.sh
 This produces the build/sobel_gpu executable.
+
 3. **Download a sample image (optional):**
    ```bash
    chmod +x scripts/download_sample.sh
